@@ -36,9 +36,9 @@ Launch dosyası çalıştığında düğüm doğrudan bu `0.05`, `50` ve `1.0` d
 
 ```bash
 ros2 launch lidar_filter_node filter_launch.py
-
+```
 Eğer simülasyon veya test esnasında parametreleri anlık (runtime) olarak değiştirmek istersen şu komutu kullanabilirsin:
-
+```
 ros2 param set /lidar_filter_node voxel_leaf_size 0.10
 ```
 ------------------------------------------------------------------------------------------
@@ -83,8 +83,8 @@ When the launch file runs, the node initializes and begins filtering using the d
 
 ```bash
 ros2 launch lidar_filter_node filter_launch.py
-
+```
 To adjust parameters on the fly (runtime) during a simulation or a live test, use the following command:
-
+```
 ros2 param set /lidar_filter_node voxel_leaf_size 0.10
 ```
