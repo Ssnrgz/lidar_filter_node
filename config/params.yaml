@@ -1,0 +1,6 @@
+lidar_filter_node:
+  ros__parameters:
+    voxel_leaf_size: 0.05
+    sor_mean_k: 50
+    sor_stddev_mul_thresh: 1.0
+
