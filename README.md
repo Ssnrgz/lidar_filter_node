@@ -43,8 +43,7 @@ ros2 param set /lidar_filter_node voxel_leaf_size 0.10
 
 ------------------------------------------------------------------------------------------
 
-
-## lidar_filter_node
+# lidar_filter_node
 
 A modular and dynamic ROS 2 Humble node that processes raw LiDAR data (`sensor_msgs/msg/PointCloud2`) using the Point Cloud Library (PCL).
 
@@ -84,6 +83,7 @@ When the launch file runs, the node initializes and begins filtering using the d
 
 ```bash
 ros2 launch lidar_filter_node filter_launch.py
+
 To adjust parameters on the fly (runtime) during a simulation or a live test, use the following command:
 
 ros2 param set /lidar_filter_node voxel_leaf_size 0.10
